@@ -2210,7 +2210,7 @@ button,
     border-bottom: 0;
     color: inherit;
     cursor: pointer;
-    display: block;
+    display: inline-block;
     font-size: 0.9em;
     padding: 0.625em 0; }
     #menu ul a:hover, #menu ul span:hover {
@@ -2359,4 +2359,8 @@ button,
     @keyframes fade {
       from {opacity: .4}
       to {opacity: 1}
+    }
+
+    .activePage {
+      background-color:rgba(244, 4, 4, 0.16)
     }
