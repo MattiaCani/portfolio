@@ -48,29 +48,54 @@
 										<a href="files/Parkify.apk" download class="icon solid fa-download">APK applicazione (prototipo ad alta fedeltà DEMO)</a><br/>
 										<a href="files/" class="icon solid fa-download">Presentazione progetto</a>
 									</div>
-								</section>
-
-								<h3>Screenshot dell'applicazione</h3>
-									<!-- Slideshow container -->
-									<div class="slideshow-container">
+									
+									<h3>Screenshot dell'applicazione</h3>
+									<section id="ParkifyScreenshot">
+										
+										<!-- Slideshow container -->
+										<div class="slideshow-container">
 
 										<!-- Full-width images with number and caption text -->
 										<div class="mySlides fade">
-										<div class="numbertext">1 / 3</div>
-										<img src="images/SpaceDefender.png" style="width:100%">
-										<div class="text">Menù di avvio del gioco</div>
+											<div class="numbertext">1 / 7</div>
+											<img src="files/p1.png" style="width:25%" class="centerImage">
+											<div class="text">Pagina di Login</div>
 										</div>
 									
 										<div class="mySlides fade">
-										<div class="numbertext">2 / 3</div>
-										<img src="images/SP2.png" style="width:100%">
-										<div class="text">Istruzioni per un corretto avvio</div>
+											<div class="numbertext">2 / 7</div>
+											<img src="files/p2.png" style="width:50%" class="centerImage">
+											<div class="text">Form di registrazione utente</div>
 										</div>
 									
 										<div class="mySlides fade">
-										<div class="numbertext">3 / 3</div>
-										<img src="images/SP3.png" style="width:100%">
-										<div class="text">Gioco in esecuzione</div>
+											<div class="numbertext">3 / 7</div>
+											<img src="files/p3.png" style="width:25%" class="centerImage">
+											<div class="text">Homepage con mappa interattiva</div>
+										</div>
+
+										<div class="mySlides fade">
+											<div class="numbertext">4 / 7</div>
+											<img src="files/p4.png" style="width:50%" class="centerImage">
+											<div class="text">Parcheggio selezionato sulla mappa</div>
+										</div>
+
+										<div class="mySlides fade">
+											<div class="numbertext">5 / 7</div>
+											<img src="files/p5.png" style="width:25%" class="centerImage">
+											<div class="text">Inserimento valutazione</div>
+										</div>
+
+										<div class="mySlides fade">
+											<div class="numbertext">6 / 7</div>
+											<img src="files/p6.png" style="width:25%" class="centerImage">
+											<div class="text">Ricerca parcheggio</div>
+										</div>
+
+										<div class="mySlides fade">
+											<div class="numbertext">7 / 7</div>
+											<img src="files/p7.png" style="width:25%" class="centerImage">
+											<div class="text">Pagina account personale</div>
 										</div>
 									
 										<!-- Next and previous buttons -->
@@ -84,8 +109,13 @@
 										<span class="dot" onclick="currentSlide(1)"></span>
 										<span class="dot" onclick="currentSlide(2)"></span>
 										<span class="dot" onclick="currentSlide(3)"></span>
+										<span class="dot" onclick="currentSlide(4)"></span>
+										<span class="dot" onclick="currentSlide(5)"></span>
+										<span class="dot" onclick="currentSlide(6)"></span>
+										<span class="dot" onclick="currentSlide(7)"></span>
 									</div>
 								</section>
+								
 						</div>
 					</div>
 
@@ -99,7 +129,15 @@
 									</header>
 									<ul>
 										<li class="icon solid fa-home"><a href="index.html">Homepage</a></li>
-										<li class="icon solid fa-project-diagram"><a href="progetti.html">Progetti</a></li>
+										<li class="icon solid fa-project-diagram">
+											<span class="opener activePage">Progetti</span>
+											<ul>
+												<li><a href="spaceDefender.html">Space Defender</a></li>
+												<li><a href="conference.html">Conference</a></li>
+												<li class="activePage"><a href="parkify.html">Parkify</a></li>
+												<li><a href="progetti.html">>> Tutti i progetti</a></li>
+											</ul>
+										</li>
 									</ul>
 									
 								</nav>
@@ -134,6 +172,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="assets/js/slideshow.js"></script>
 	</body>
 </html>
